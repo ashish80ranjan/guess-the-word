@@ -2,7 +2,7 @@ const msg=document.querySelector('.message');
 const guess=document.querySelector('input');
 const btn=document.querySelector('.btn');
 
-let arrword=['python','javascript','c++','php','java','reactjs','angular','swift','android','sql','html','css'];
+let arrword=['python','javascript','Elonmusk','billgates','java','reactjs','angular','swift','android','sql','html','css'];
 
 let neWords="";
 let scaWords="";
@@ -45,7 +45,7 @@ btn.addEventListener('click',function(){
             guess.value="";
 
         }else{
-            msg.innerHTML=`Worng! try Again`
+            msg.innerHTML=`Wrong! try Again`
         }
     }
 })
